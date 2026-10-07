@@ -84,6 +84,10 @@ Install Nvidia drivers by following the steps below in a terminal:
 </details>
 
 * Note (optional): If your disk is encrypted follow the Encrypted Disk section of [this guide](https://github.com/Comprehensive-Wall28/Nvidia-Fedora-Guide?tab=readme-ov-file#encrypted-drives) .
+* Note (optional, hybrid graphics laptops): GTK 4 apps use the Vulkan renderer by default, which wakes up the NVIDIA GPU and delays app startup by a few seconds. Switch GTK to the OpenGL renderer so these apps stay on the integrated GPU:
+* `mkdir -p ~/.config/environment.d`
+* `echo "GSK_RENDERER=ngl" > ~/.config/environment.d/gtk.conf`
+* Log out and log back in to apply. To revert, delete `~/.config/environment.d/gtk.conf`.
 
 ## ~~Battery Life (Deprecated)~~
 * ~~Follow this if you have a Laptop and are facing sub optimal battery backup.~~
