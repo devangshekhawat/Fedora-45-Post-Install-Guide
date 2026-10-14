@@ -1,6 +1,6 @@
  
-# Fedora 44 Post Install Guide
-Things to do after installing Fedora 44
+# Fedora 45 Post Install Guide
+Things to do after installing Fedora 45
 
 ## RPM Fusion
 
