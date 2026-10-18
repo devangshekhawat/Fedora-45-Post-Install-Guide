@@ -83,7 +83,7 @@ Install Nvidia drivers by following the steps below in a terminal:
  * Congrats now you have working Nvidia drivers!
 </details>
 
-* Note (optional): If your disk is encrypted follow the Encrypted Disk section of [this guide](https://github.com/Comprehensive-Wall28/Nvidia-Fedora-Guide?tab=readme-ov-file#encrypted-drives) .
+* Note (optional): If your disk is encrypted follow the Encrypted Disk section of [this guide](https://github.com/Comprehensive-Wall28/Nvidia-Fedora-Guide?tab=readme-ov-file#encrypted-drives) and if you use a laptop with dual GPUs then follow the Hybrid Graphics section of [this guide](https://www.instagram.com/reels/DemnbXiNpY1/) .
 
 ## ~~Battery Life (Deprecated)~~
 * ~~Follow this if you have a Laptop and are facing sub optimal battery backup.~~
